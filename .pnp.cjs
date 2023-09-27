@@ -41,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["bootstrap", "virtual:fc5d81390eb745af829d9d14b8e1b8fad68243cbcf5cf3401e6a6aec45afa3c7a34541ebaf66d9695b26b7de4141b01ca578ce495fd811bc4669bee06d34656a#npm:5.3.2"],\
           ["concurrently", "npm:8.2.1"],\
           ["eslint", "npm:8.50.0"],\
+          ["jstransformer-marked", "npm:1.4.0"],\
           ["rimraf", "npm:5.0.5"],\
           ["sass", "npm:1.68.0"],\
           ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
@@ -7138,6 +7139,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["jstransformer-marked", [\
+      ["npm:1.4.0", {\
+        "packageLocation": "../../.yarn/berry/cache/jstransformer-marked-npm-1.4.0-37733d8d97-10c0.zip/node_modules/jstransformer-marked/",\
+        "packageDependencies": [\
+          ["jstransformer-marked", "npm:1.4.0"],\
+          ["marked", "npm:4.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["keshi", [\
       ["npm:2.0.7", {\
         "packageLocation": "../../.yarn/berry/cache/keshi-npm-2.0.7-6176689b72-10c0.zip/node_modules/keshi/",\
@@ -7178,6 +7189,7 @@ const RAW_RUNTIME_STATE =
           ["bootstrap", "virtual:fc5d81390eb745af829d9d14b8e1b8fad68243cbcf5cf3401e6a6aec45afa3c7a34541ebaf66d9695b26b7de4141b01ca578ce495fd811bc4669bee06d34656a#npm:5.3.2"],\
           ["concurrently", "npm:8.2.1"],\
           ["eslint", "npm:8.50.0"],\
+          ["jstransformer-marked", "npm:1.4.0"],\
           ["rimraf", "npm:5.0.5"],\
           ["sass", "npm:1.68.0"],\
           ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
@@ -7316,6 +7328,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["makeerror", "npm:1.0.12"],\
           ["tmpl", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["marked", [\
+      ["npm:4.3.0", {\
+        "packageLocation": "../../.yarn/berry/cache/marked-npm-4.3.0-e7ef9e874f-10c0.zip/node_modules/marked/",\
+        "packageDependencies": [\
+          ["marked", "npm:4.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
