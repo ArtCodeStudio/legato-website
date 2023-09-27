@@ -1,0 +1,12 @@
+*.js.timestamp-*.mjs
+node_modules/
+dist/
+
+# Yarn 2 with PnP and tero install, see https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

@@ -1,0 +1,11 @@
+doctype html
+html
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title=title
+    link(rel="scss", href="../styles/main.scss")
+body
+    include ../partials/navigation.pug
+    router-view#main
+        block content
+    script(async src="../scripts/main.ts", type="module")

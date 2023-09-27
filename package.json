@@ -1,0 +1,43 @@
+{
+  "name": "legato-website",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "author": "Pascal Garber <pascal@artandcode.studio>",
+  "license": "MIT",
+  "packageManager": "yarn@4.0.0-rc.51",
+  "scripts": {
+    "build": "vite build --mode production",
+    "build:dev": "vite build --mode development",
+    "watch": "yarn build:dev --watch",
+    "start": "concurrently --kill-others 'yarn:watch' 'yarn:serve'",
+    "serve": "vite preview --mode development --logLevel info",
+    "clear": "rimraf ./dist ./*.js.timestamp-*.mjs",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx,.cts,.mts --fix && tsc --noEmit",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@ribajs/babel-config": "^2.0.0-rc.6",
+    "@ribajs/eslint-config": "^2.0.0-rc.6",
+    "@ribajs/tsconfig": "^2.0.0-rc.6",
+    "@types/eslint": "^8",
+    "@vituum/vite-plugin-pug": "^1.0.0",
+    "concurrently": "^8.2.1",
+    "eslint": "^8.50.0",
+    "rimraf": "^5.0.5",
+    "sass": "^1.68.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vituum": "^1.0.0"
+  },
+  "dependencies": {
+    "@ribajs/bs5": "^2.0.0-rc.6",
+    "@ribajs/core": "^2.0.0-rc.6",
+    "@ribajs/extras": "^2.0.0-rc.6",
+    "@ribajs/iconset": "^2.0.0-rc.6",
+    "@ribajs/router": "^2.0.0-rc.6",
+    "@ribajs/types": "^2.0.0-rc.6",
+    "@ribajs/utils": "^2.0.0-rc.6",
+    "bootstrap": "^5.3.2"
+  }
+}
