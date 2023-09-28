@@ -1,10 +1,15 @@
 # Legato Website
 
-Website project for legato.de build with [Vituum](https://vituum.dev/) + [Vite](https://vitejs.dev/) + [Riba.js](https://ribajs.com/) + [Bootstrap](https://getbootstrap.com/).
+Website project for legato.de build with [Vite](https://vitejs.dev/) + [Riba.js](https://ribajs.com/) + [Bootstrap](https://getbootstrap.com/).
 
 ## Development
 
 Just run `yarn start`, this watch the files for changes and starts a local web server for developing.
+
+## TODO
+
+* Load specific json files for each page and use the data in the template.
+* Maybe instead of using json files for each page, use markdown files
 
 ## Licence
 

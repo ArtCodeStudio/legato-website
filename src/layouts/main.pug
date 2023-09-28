@@ -7,5 +7,6 @@ html
 body
     include ../partials/navigation.pug
     router-view#main
-        block content
+        div#main-container
+            block content
     script(async src="../scripts/main.ts", type="module")
