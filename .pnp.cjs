@@ -42,7 +42,6 @@ const RAW_RUNTIME_STATE =
           ["concurrently", "npm:8.2.1"],\
           ["eslint", "npm:8.50.0"],\
           ["js-yaml", "npm:4.1.0"],\
-          ["jstransformer-marked", "npm:1.4.0"],\
           ["marked", "npm:9.0.3"],\
           ["pug", "npm:3.0.2"],\
           ["pug-cli", "npm:1.0.0-alpha6"],\
@@ -7354,16 +7353,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["jstransformer-marked", [\
-      ["npm:1.4.0", {\
-        "packageLocation": "../../.yarn/berry/cache/jstransformer-marked-npm-1.4.0-37733d8d97-10c0.zip/node_modules/jstransformer-marked/",\
-        "packageDependencies": [\
-          ["jstransformer-marked", "npm:1.4.0"],\
-          ["marked", "npm:4.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["keshi", [\
       ["npm:2.0.7", {\
         "packageLocation": "../../.yarn/berry/cache/keshi-npm-2.0.7-6176689b72-10c0.zip/node_modules/keshi/",\
@@ -7424,7 +7413,6 @@ const RAW_RUNTIME_STATE =
           ["concurrently", "npm:8.2.1"],\
           ["eslint", "npm:8.50.0"],\
           ["js-yaml", "npm:4.1.0"],\
-          ["jstransformer-marked", "npm:1.4.0"],\
           ["marked", "npm:9.0.3"],\
           ["pug", "npm:3.0.2"],\
           ["pug-cli", "npm:1.0.0-alpha6"],\
@@ -7579,13 +7567,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["marked", [\
-      ["npm:4.3.0", {\
-        "packageLocation": "../../.yarn/berry/cache/marked-npm-4.3.0-e7ef9e874f-10c0.zip/node_modules/marked/",\
-        "packageDependencies": [\
-          ["marked", "npm:4.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:9.0.3", {\
         "packageLocation": "../../.yarn/berry/cache/marked-npm-9.0.3-62d09c6ff6-10c0.zip/node_modules/marked/",\
         "packageDependencies": [\

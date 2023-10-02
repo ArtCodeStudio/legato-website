@@ -1,6 +1,10 @@
 *.js.timestamp-*.mjs
 node_modules/
-dist/
+dist/*
+!dist/.gitkeep
+
+src/html/*
+!src/html/.gitkeep
 
 # Yarn 2 with PnP and tero install, see https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
 .yarn/*

@@ -1,15 +1,11 @@
 import pug from 'pug';
-import { basename, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { basename } from 'path';
 import { writeFile, watch } from 'fs/promises';
-import { renderMdFiles, renderMdFile } from './md.js';
+import { renderMdFile } from './md.js';
 import { loadJsonFile } from './json.js';
 import { getAllFiles, fileExists } from './files.js';
 import { parseArgs } from './argv.js';
-
-const __dirname = globalThis.__dirname || dirname(fileURLToPath(import.meta.url));
-const PAGE_DIR = __dirname + '/../src/pages';
-const CONTENT_DIR = __dirname +'/../src/content';
+import { CONTENT_DIR, PAGE_DIR } from './config.js';
 
 const globals = await loadJsonFile('./src/data/main.json');
 const options = {};

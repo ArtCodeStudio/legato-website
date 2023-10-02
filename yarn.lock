@@ -5274,15 +5274,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jstransformer-marked@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "jstransformer-marked@npm:1.4.0"
-  dependencies:
-    marked: "npm:^4.3.0"
-  checksum: dfa5a7488e60caac9b839bed2a1dd70517bdd47401e1c7932f9d19da514881c98e2bcb08730f6788026914a7e73a9b52c177b36a833888b19a4cd62c95ad9889
-  languageName: node
-  linkType: hard
-
 "jstransformer@npm:1.0.0":
   version: 1.0.0
   resolution: "jstransformer@npm:1.0.0"
@@ -5347,7 +5338,6 @@ __metadata:
     concurrently: "npm:^8.2.1"
     eslint: "npm:^8.50.0"
     js-yaml: "npm:^4.1.0"
-    jstransformer-marked: "npm:^1.4.0"
     marked: "npm:^9.0.3"
     pug: "npm:^3.0.2"
     pug-cli: "npm:^1.0.0-alpha6"
@@ -5485,15 +5475,6 @@ __metadata:
   dependencies:
     tmpl: "npm:1.0.5"
   checksum: b0e6e599780ce6bab49cc413eba822f7d1f0dfebd1c103eaa3785c59e43e22c59018323cf9e1708f0ef5329e94a745d163fcbb6bff8e4c6742f9be9e86f3500c
-  languageName: node
-  linkType: hard
-
-"marked@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "marked@npm:4.3.0"
-  bin:
-    marked: bin/marked.js
-  checksum: 0013463855e31b9c88d8bb2891a611d10ef1dc79f2e3cbff1bf71ba389e04c5971298c886af0be799d7fa9aa4593b086a136062d59f1210b0480b026a8c5dc47
   languageName: node
   linkType: hard
 
