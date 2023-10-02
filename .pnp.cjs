@@ -37,10 +37,13 @@ const RAW_RUNTIME_STATE =
           ["@ribajs/types", "npm:2.0.0-rc.6"],\
           ["@ribajs/utils", "npm:2.0.0-rc.6"],\
           ["@types/eslint", "npm:8.44.3"],\
+          ["@types/js-yaml", "npm:4.0.6"],\
           ["bootstrap", "virtual:fc5d81390eb745af829d9d14b8e1b8fad68243cbcf5cf3401e6a6aec45afa3c7a34541ebaf66d9695b26b7de4141b01ca578ce495fd811bc4669bee06d34656a#npm:5.3.2"],\
           ["concurrently", "npm:8.2.1"],\
           ["eslint", "npm:8.50.0"],\
+          ["js-yaml", "npm:4.1.0"],\
           ["jstransformer-marked", "npm:1.4.0"],\
+          ["marked", "npm:9.0.3"],\
           ["pug", "npm:3.0.2"],\
           ["pug-cli", "npm:1.0.0-alpha6"],\
           ["rimraf", "npm:5.0.5"],\
@@ -3825,6 +3828,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/js-yaml", [\
+      ["npm:4.0.6", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-js-yaml-npm-4.0.6-2552380aa3-10c0.zip/node_modules/@types/js-yaml/",\
+        "packageDependencies": [\
+          ["@types/js-yaml", "npm:4.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/json-schema", [\
       ["npm:7.0.13", {\
         "packageLocation": "../../.yarn/berry/cache/@types-json-schema-npm-7.0.13-679a4a60fe-10c0.zip/node_modules/@types/json-schema/",\
@@ -7407,10 +7419,13 @@ const RAW_RUNTIME_STATE =
           ["@ribajs/types", "npm:2.0.0-rc.6"],\
           ["@ribajs/utils", "npm:2.0.0-rc.6"],\
           ["@types/eslint", "npm:8.44.3"],\
+          ["@types/js-yaml", "npm:4.0.6"],\
           ["bootstrap", "virtual:fc5d81390eb745af829d9d14b8e1b8fad68243cbcf5cf3401e6a6aec45afa3c7a34541ebaf66d9695b26b7de4141b01ca578ce495fd811bc4669bee06d34656a#npm:5.3.2"],\
           ["concurrently", "npm:8.2.1"],\
           ["eslint", "npm:8.50.0"],\
+          ["js-yaml", "npm:4.1.0"],\
           ["jstransformer-marked", "npm:1.4.0"],\
+          ["marked", "npm:9.0.3"],\
           ["pug", "npm:3.0.2"],\
           ["pug-cli", "npm:1.0.0-alpha6"],\
           ["rimraf", "npm:5.0.5"],\
@@ -7568,6 +7583,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/marked-npm-4.3.0-e7ef9e874f-10c0.zip/node_modules/marked/",\
         "packageDependencies": [\
           ["marked", "npm:4.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:9.0.3", {\
+        "packageLocation": "../../.yarn/berry/cache/marked-npm-9.0.3-62d09c6ff6-10c0.zip/node_modules/marked/",\
+        "packageDependencies": [\
+          ["marked", "npm:9.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\

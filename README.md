@@ -10,6 +10,7 @@ Just run `yarn start`, this watch the files for changes and starts a local web s
 
 * Load specific json files for each page and use the data in the template.
 * Maybe instead of using json files for each page, use markdown files
+* Write a custom renderer using the pug api to render the markdown files: https://www.npmjs.com/package/pug
 
 ## Licence
 
