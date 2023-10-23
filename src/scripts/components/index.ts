@@ -1,1 +1,1 @@
-export { SliderExampleComponent } from "./slider-example/slider-example.component.js";
+export { LgPersonComponent } from "./person/person.component.js";

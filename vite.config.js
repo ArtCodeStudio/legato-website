@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 import { getAllFiles } from './tools/files';
 import { basename } from 'path';
+import pugRollupPlugin from 'rollup-plugin-pug';
 
 const htmlFiles = await getAllFiles('./src/html', ['.html']);
 const input = {};
@@ -17,7 +18,9 @@ export default defineConfig({
     emptyOutDir: true,
     outDir: resolve(__dirname, 'dist'),
     rollupOptions: {
-      plugins: [],
+      plugins: [
+        pugRollupPlugin(),
+      ],
       input,
     }
   },

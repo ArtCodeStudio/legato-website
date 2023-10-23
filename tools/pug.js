@@ -16,7 +16,7 @@ const buildPage = async (pageFile) => {
 
     let locals = {
         title: `Title not set in ${base}.md`,
-        content: "Content file ${base}.md not found"
+        content: `Content file "${contentFile}" not found`,
     };
     
 

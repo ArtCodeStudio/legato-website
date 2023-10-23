@@ -1,0 +1,9 @@
+lg-person {
+  @extend .d-inline-block;
+  cursor: pointer;
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity, 1));
+  text-decoration: $link-decoration;
+  &:hover {
+    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+  }
+}

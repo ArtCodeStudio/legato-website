@@ -19,30 +19,31 @@
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx,.cts,.mts --fix && tsc --noEmit"
   },
   "devDependencies": {
-    "@ribajs/babel-config": "^2.0.0-rc.6",
-    "@ribajs/eslint-config": "^2.0.0-rc.6",
-    "@ribajs/tsconfig": "^2.0.0-rc.6",
-    "@types/eslint": "^8",
-    "@types/js-yaml": "^4",
-    "concurrently": "^8.2.1",
-    "eslint": "^8.50.0",
+    "@ribajs/babel-config": "^2.0.0-rc.9",
+    "@ribajs/eslint-config": "^2.0.0-rc.9",
+    "@ribajs/tsconfig": "^2.0.0-rc.9",
+    "@types/eslint": "^8.44.6",
+    "@types/js-yaml": "^4.0.8",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.52.0",
     "js-yaml": "^4.1.0",
-    "marked": "^9.0.3",
+    "marked": "^9.1.2",
     "pug": "^3.0.2",
     "pug-cli": "^1.0.0-alpha6",
     "rimraf": "^5.0.5",
-    "sass": "^1.68.0",
+    "rollup-plugin-pug": "^1.1.1",
+    "sass": "^1.69.4",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.5.0"
   },
   "dependencies": {
-    "@ribajs/bs5": "^2.0.0-rc.6",
-    "@ribajs/core": "^2.0.0-rc.6",
-    "@ribajs/extras": "^2.0.0-rc.6",
-    "@ribajs/iconset": "^2.0.0-rc.6",
-    "@ribajs/router": "^2.0.0-rc.6",
-    "@ribajs/types": "^2.0.0-rc.6",
-    "@ribajs/utils": "^2.0.0-rc.6",
+    "@ribajs/bs5": "^2.0.0-rc.9",
+    "@ribajs/core": "^2.0.0-rc.9",
+    "@ribajs/extras": "^2.0.0-rc.9",
+    "@ribajs/iconset": "^2.0.0-rc.9",
+    "@ribajs/router": "^2.0.0-rc.9",
+    "@ribajs/types": "^2.0.0-rc.9",
+    "@ribajs/utils": "^2.0.0-rc.9",
     "bootstrap": "^5.3.2"
   }
 }
