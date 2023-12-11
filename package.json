@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Pascal Garber <pascal@artandcode.studio>",
   "license": "MIT",
-  "packageManager": "yarn@4.0.0-rc.51",
+  "packageManager": "yarn@4.0.2",
   "scripts": {
     "build": "yarn build:pug && yarn build:vite",
     "build:vite": "vite build",
@@ -19,31 +19,31 @@
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx,.cts,.mts --fix && tsc --noEmit"
   },
   "devDependencies": {
-    "@ribajs/babel-config": "^2.0.0-rc.9",
-    "@ribajs/eslint-config": "^2.0.0-rc.9",
-    "@ribajs/tsconfig": "^2.0.0-rc.9",
-    "@types/eslint": "^8.44.6",
-    "@types/js-yaml": "^4.0.8",
+    "@ribajs/babel-config": "^2.0.0-rc.10",
+    "@ribajs/eslint-config": "^2.0.0-rc.10",
+    "@ribajs/tsconfig": "^2.0.0-rc.10",
+    "@types/eslint": "^8.44.8",
+    "@types/js-yaml": "^4.0.9",
     "concurrently": "^8.2.2",
-    "eslint": "^8.52.0",
+    "eslint": "^8.55.0",
     "js-yaml": "^4.1.0",
-    "marked": "^9.1.2",
+    "marked": "^11.0.1",
     "pug": "^3.0.2",
     "pug-cli": "^1.0.0-alpha6",
     "rimraf": "^5.0.5",
     "rollup-plugin-pug": "^1.1.1",
-    "sass": "^1.69.4",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0"
+    "sass": "^1.69.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.7"
   },
   "dependencies": {
-    "@ribajs/bs5": "^2.0.0-rc.9",
-    "@ribajs/core": "^2.0.0-rc.9",
-    "@ribajs/extras": "^2.0.0-rc.9",
-    "@ribajs/iconset": "^2.0.0-rc.9",
-    "@ribajs/router": "^2.0.0-rc.9",
-    "@ribajs/types": "^2.0.0-rc.9",
-    "@ribajs/utils": "^2.0.0-rc.9",
+    "@ribajs/bs5": "^2.0.0-rc.10",
+    "@ribajs/core": "^2.0.0-rc.10",
+    "@ribajs/extras": "^2.0.0-rc.10",
+    "@ribajs/iconset": "^2.0.0-rc.10",
+    "@ribajs/router": "^2.0.0-rc.10",
+    "@ribajs/types": "^2.0.0-rc.10",
+    "@ribajs/utils": "^2.0.0-rc.10",
     "bootstrap": "^5.3.2"
   }
 }

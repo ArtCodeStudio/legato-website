@@ -9,3 +9,25 @@
 //     )
 //   )
 // );
+
+$circle-color: $gray-500; // Change this to set the circle's color
+$circle-size: 1000px; // Diameter of the circle
+
+.circle-bg {
+
+
+    // Pseudo-element for the circle
+    &::before {
+        content: "";
+        position: fixed; // Fixes the circle so it doesn't scroll with the page
+        bottom: 0;
+        left: 0;
+        width: $circle-size;
+        height: $circle-size;
+        background-color: $circle-color;
+        border-radius: 50%; // Makes the element a circle
+        z-index: -1; // Ensures the circle is behind the content
+        margin-left: calc(-500px + 20vw);
+        margin-bottom: -250px;
+    }
+}

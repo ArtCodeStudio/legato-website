@@ -46,6 +46,28 @@ const buildAll = async () => {
     }
 }
 
+const watchLayouts = async () => {
+    const layoutWatcher = watch('./src/layouts', {recursive: true, persistent: true});
+    for await (const event of layoutWatcher) {
+        if(!event.filename.endsWith('.pug')) {
+            continue;
+        }
+        console.debug(`${event.filename} layout changed`);
+        await buildAll();
+    }
+}
+
+const watchComponents = async () => {
+    const componentWatcher = watch('./src/scripts/components', {recursive: true, persistent: true});
+    for await (const event of componentWatcher) {
+        if(!event.filename.endsWith('.pug')) {
+            continue;
+        }
+        console.debug(`${event.filename} component changed`);
+        await buildAll();
+    }
+}
+
 const watchContent = async () => {
     const contentWatcher = watch(CONTENT_DIR, {recursive: true, persistent: true});
     for await (const event of contentWatcher) {
@@ -67,7 +89,7 @@ const watchPages = async () => {
 }
 
 const watchAll = async () => {
-    return Promise.all([watchContent(), watchPages()]);
+    return Promise.all([watchContent(), watchPages(), watchLayouts(), watchComponents()]);
 }
 
 const args = parseArgs();

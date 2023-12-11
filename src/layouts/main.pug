@@ -5,7 +5,8 @@ html
     title=title
     link(rel="scss", href="../styles/fonts.scss")
     link(rel="scss", href="../styles/main.scss")
-body
+body.circle-bg
+    include ../scripts/components/top-bar/top-bar.component.pug
     router-view#main
         div#main-container
             include ../scripts/components/header/header.component.pug
